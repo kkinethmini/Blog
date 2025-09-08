@@ -1,0 +1,10 @@
+
+:root{ --bg:#0b1220; --card:#0f172a; --line:#1f2937; --text:#e5e7eb; --muted:#9ca3af; }
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,Segoe UI,Roboto,Arial}
+.wrap{max-width:1000px;margin:20px auto;padding:0 20px}
+.grid{display:grid;grid-template-columns:320px 1fr;gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px}
+input, textarea{width:100%;padding:10px;border-radius:10px;border:1px solid var(--line);background:#0b1220;color:var(--text)}
+.post{padding:12px;border:1px solid var(--line);border-radius:12px;margin-bottom:10px}
+button{padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:#0b1220;color:var(--text);cursor:pointer}
+.row{display:flex;gap:8px;flex-wrap:wrap}
